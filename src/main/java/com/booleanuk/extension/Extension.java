@@ -58,14 +58,14 @@ public class Extension extends ExtensionBase {
     }
 
     public String multiply(String a, int b) {
-        String str = "";
+        String string = "";
         for (int i = 0; i < b; i++) {
-            str += a;
+            string += a;
             if (i < b - 1) {
-                str += ",";
+                string += ",";
             }
         }
-        return str;
+        return string;
     }
 
     public int[] multiply(String[] a, int b) {
